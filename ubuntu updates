@@ -1,10 +1,1 @@
-1. `apt-get update`
--updates the list that could be updated
 
-2. `apt-get upgrade`
--gets the update list from <1> and actually upgrades
-
-3. `apt-install <software>`
--installs the program which contains repository(=repo)
-
-4. Ubuntu package(apt:advanced packaging tool) -> deb format(debian packaging system)
