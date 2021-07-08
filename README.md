@@ -1,1 +1,2 @@
 # Ubuntu
+`sudo apt update`
