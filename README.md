@@ -1,4 +1,3 @@
 # Ubuntu
 
-**ubuntu**
-`sudo apt update`
+this repo contains anything that's related to ubuntu
