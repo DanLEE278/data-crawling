@@ -1,3 +1,4 @@
-# Ubuntu
+# data-crwaling
 
-this repo contains anything that's related to ubuntu
+This repo includes data crawling codes that have been coded throughout the project.
+the project has been done 
