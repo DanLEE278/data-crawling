@@ -1,11 +1,19 @@
-# project 1 - EfficientNet based Deepfake image classification
+## project 1 - Image data crawling
 
-This repository contains crawling code used for deepfake detection image crwaling. It enables to collect image data from google website. To run the code see RUN THE CODE section.
-
+- **This respository Crawls image from particular website**
+&nbsp;
+- **To run the code see RUN THE CODE section.**
 
 ### RUN THE CODE
 first write the id and password in each of the crawling code
-simply run,
-python auto_crawling1.py
-python auto_crawling2.py
-python auto_crawling3.py
+
+#### image crawling
+```
+python website_crawling.py
+```
+
+<span style="font-size:0.8em;">
+code writen 2022.08.20
+
+code version: V1
+</span>

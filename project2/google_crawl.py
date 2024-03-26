@@ -6,7 +6,7 @@ import time
 
 
 
-def scroll_down():
+def scroll_down()-> None:
     global driver
     last_height = driver.execute_script("return document.body.scrollHeight")
 
@@ -41,9 +41,7 @@ if __name__ == "__main__":
     html = driver.page_source
     soup = BeautifulSoup(html, 'html.parser')
     images = soup.find_all('img', attrs={'class':'rg_i Q4LuWd'})
-    
-    print(len(images))
-    
+        
     counter = 1
     for i in images:
         try:
@@ -56,3 +54,7 @@ if __name__ == "__main__":
                 img = f.read()
                 h.write(img)
         counter += 1
+        
+    # TODO: target name parser argument
+    # TODO: multiprocessing
+    

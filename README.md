@@ -14,6 +14,6 @@ code for downloading "naver" platform images
 ### project 4 - Video crawling youtube videos
 code for donwloading a list of youtube URLs.
 
-### project 5 - Video crawling tictok videos
+### project 5 - Video crawling tiktok videos
 code for downloading a list of tictok videos.
 
